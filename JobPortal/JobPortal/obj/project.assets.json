@@ -2008,11 +2008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\ASP .Net\\JobPortal\\JobPortal\\JobPortal.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Job Portal\\JobPortal\\JobPortal\\JobPortal.csproj",
       "projectName": "JobPortal",
-      "projectPath": "C:\\Users\\HP\\Desktop\\ASP .Net\\JobPortal\\JobPortal\\JobPortal.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Job Portal\\JobPortal\\JobPortal\\JobPortal.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\ASP .Net\\JobPortal\\JobPortal\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Job Portal\\JobPortal\\JobPortal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
