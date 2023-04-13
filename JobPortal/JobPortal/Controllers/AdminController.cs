@@ -102,6 +102,8 @@ namespace JobPortal.Controllers
 
         public IActionResult Job()
         {
+            int Id = Convert.ToInt32(Request.Query["id"]);
+
             List<JobViewModel> JobList = new List<JobViewModel>();
             try
             {
@@ -109,7 +111,7 @@ namespace JobPortal.Controllers
                 SqlConnection connection = new SqlConnection(conn);
                 connection.Open();
 
-                string query = "SELECT * FROM Jobs";
+                string query = $"SELECT * FROM Jobs where company_id = {Id};";
                 SqlCommand sqlCommand = new SqlCommand(query, connection);
 
                 SqlDataReader reader = sqlCommand.ExecuteReader();
